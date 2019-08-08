@@ -58,6 +58,9 @@
     this.el = d.createElement('div');
     this.el.setAttribute('class', 'ss-content');
 
+    this.track = d.createElement('div');
+    this.track.setAttribute('class', 'ss-track');
+
     if (this.direction === 'rtl') {
       this.el.classList.add('rtl');
     }
@@ -69,8 +72,9 @@
     }
     this.target.appendChild(this.wrapper);
 
-    this.target.insertAdjacentHTML('beforeend', this.bar);
-    this.bar = this.target.lastChild;
+    this.target.appendChild(this.track);
+    this.track.insertAdjacentHTML('beforeend', this.bar);
+    this.bar = this.track.lastChild;
 
     dragDealer(this.bar, this);
     this.moveBar();

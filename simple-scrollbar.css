@@ -27,10 +27,23 @@
   width: 9px;
   border-radius: 4px;
   top: 0;
+  right: 0;
   z-index: 2;
   cursor: pointer;
   opacity: 0;
   transition: opacity 0.25s linear;
+}
+
+.ss-track {
+  max-height: 100px;
+  position: absolute;
+  border-radius: 4px;
+  right: 4px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 100%;
+  width: 9px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .ss-hidden {
