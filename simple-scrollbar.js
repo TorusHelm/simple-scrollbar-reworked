@@ -107,9 +107,9 @@
       raf(function() {
         // Hide scrollbar if no scrolling is possible
         if(_this.scrollRatio >= 1) {
-          _this.bar.classList.add('ss-hidden')
+          _this.track.classList.add('ss-hidden')
         } else {
-          _this.bar.classList.remove('ss-hidden')
+          _this.track.classList.remove('ss-hidden')
           // _this.bar.style.cssText = 'height:' + Math.max(_this.scrollRatio * 100, 10) + '%; top:' + (_this.el.scrollTop / totalHeight ) * 100 + '%;right:' + right + 'px;';
           _this.bar.style.cssText = 'height:' + Math.max(_this.scrollRatio * 100, 10) + '%; top:' + (_this.el.scrollTop / totalHeight ) * 100 + '%;';
         }
