@@ -9,7 +9,7 @@
 
 .ss-content {
   height: 100%;
-  width: calc(100% + 18px);
+  width: calc(100% + 16px);
   padding: 0 0 0 0;
   position: relative;
   overflow: auto;
@@ -17,7 +17,7 @@
 }
 
 .ss-content.rtl {
-  width: calc(100% + 18px);
+  width: calc(100% + 16px);
   right: auto;
 }
 
