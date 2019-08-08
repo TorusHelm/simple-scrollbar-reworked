@@ -1,23 +1,28 @@
 {
-  "name": "simple-scrollbar",
+  "name": "simple-scrollbar-reworked",
   "version": "0.4.0",
-  "description": "Very simple vanilla javascript library for creating a custom scrollbar cross-browser and cross-devices.",
+  "description": "Very simple vanilla javascript library for creating a custom scrollbar cross-browser and cross-devices. Addings by TorusHelm.",
   "main": "simple-scrollbar.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/buzinas/simple-scrollbar.git"
+    "url": "git+https://github.com/TorusHelm/simple-scrollbar-reworked"
   },
   "keywords": [
     "scrollbar",
     "custom-scrollbar",
     "tiny-scrollbar",
     "simple-scrollbar",
-    "vanilla-js"
+    "vanilla-js",
+    "simple-scrollbar-fixed",
+    "simple-scrollbar-adds"
   ],
   "author": "Vitor Buzinaro",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/buzinas/simple-scrollbar/issues"
+    "url": "https://github.com/TorusHelm/simple-scrollbar-reworked/issues"
   },
-  "homepage": "https://github.com/buzinas/simple-scrollbar#readme"
+  "homepage": "https://github.com/TorusHelm/simple-scrollbar-reworked#readme",
+  "dependencies": {
+    "simple-scrollbar": "github:TorusHelm/simple-scrollbar-reworked"
+  }
 }
