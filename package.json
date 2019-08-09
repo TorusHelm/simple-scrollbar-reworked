@@ -7,6 +7,9 @@
     "type": "git",
     "url": "git+https://github.com/TorusHelm/simple-scrollbar-reworked"
   },
+  "engines": {
+    "node": ">=4"
+  },
   "keywords": [
     "scrollbar",
     "custom-scrollbar",
@@ -19,7 +22,8 @@
   "author": "Vitor Buzinaro",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/TorusHelm/simple-scrollbar-reworked/issues"
+    "url": "https://github.com/TorusHelm/simple-scrollbar-reworked/issues",
+    "email": "TorusHolm@gmail.com"
   },
   "homepage": "https://github.com/TorusHelm/simple-scrollbar-reworked#readme"
 }
