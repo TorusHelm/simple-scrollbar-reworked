@@ -78,10 +78,5 @@ document.body.appendChild(otherDiv);
 SimpleScrollbar.initAll();
 ```
 
-
-### RTL Support
-
-Add `direction: rtl;` to your `<div>`'s CSS, and SimpleScrollbar will detect the direction automatically.
-
 ## Credits
 Inspired by yairEO's jQuery plugin ([fakescroll](https://github.com/yairEO/fakescroll))
