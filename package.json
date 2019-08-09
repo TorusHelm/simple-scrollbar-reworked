@@ -1,6 +1,6 @@
 {
   "name": "simple-scrollbar-reworked",
-  "version": "0.4.4",
+  "version": "0.4.5",
   "description": "Very simple vanilla javascript library for creating a custom scrollbar cross-browser and cross-devices. Addings by TorusHelm. Forked from https://github.com/buzinas/simple-scrollbar",
   "main": "simple-scrollbar.js",
   "repository": {
@@ -21,8 +21,5 @@
   "bugs": {
     "url": "https://github.com/TorusHelm/simple-scrollbar-reworked/issues"
   },
-  "homepage": "https://github.com/TorusHelm/simple-scrollbar-reworked#readme",
-  "dependencies": {
-    "simple-scrollbar": "github:TorusHelm/simple-scrollbar-reworked"
-  }
+  "homepage": "https://github.com/TorusHelm/simple-scrollbar-reworked#readme"
 }
